@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10662401f38aae1c72be9472ee8681a5",
+    "content-hash": "a3556929458972a1091165a70106e3ae",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -5969,6 +5969,71 @@
             "time": "2024-07-26T12:41:01+00:00"
         },
         {
+            "name": "tallstackui/tallstackui",
+            "version": "v1.34.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tallstackui/tallstackui.git",
+                "reference": "1b3f5115739766aeab0d9cee8d402f44cbb0fda1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tallstackui/tallstackui/zipball/1b3f5115739766aeab0d9cee8d402f44cbb0fda1",
+                "reference": "1b3f5115739766aeab0d9cee8d402f44cbb0fda1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^10.0|^11.0",
+                "livewire/livewire": "^3.4.9",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "larastan/larastan": "^2.7",
+                "laravel/pint": "^1.13",
+                "orchestra/testbench": "8.x-dev|9.x-dev",
+                "orchestra/testbench-dusk": "8.x-dev|9.x-dev",
+                "pestphp/pest": "^2.0",
+                "pestphp/pest-plugin-type-coverage": "^2.2",
+                "rector/rector": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TallStackUi\\TallStackUiServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TallStackUi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AJ Meireles",
+                    "email": "alvaro.meireles@live.com"
+                }
+            ],
+            "description": "TallStackUI is a powerful suite of Blade components that elevate your workflow of Livewire applications.",
+            "support": {
+                "issues": "https://github.com/tallstackui/tallstackui/issues",
+                "source": "https://github.com/tallstackui/tallstackui/tree/v1.34.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/devajmeireles",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-08-05T23:05:36+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "v2.2.7",
             "source": {
@@ -6552,6 +6617,65 @@
                 "source": "https://github.com/laravel/sail"
             },
             "time": "2024-08-02T07:45:47+00:00"
+        },
+        {
+            "name": "lucascudo/laravel-pt-br-localization",
+            "version": "v2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lucascudo/laravel-pt-BR-localization.git",
+                "reference": "14a2b2b8f324a34806fdcddc9fade1c7c5ecbbbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lucascudo/laravel-pt-BR-localization/zipball/14a2b2b8f324a34806fdcddc9fade1c7c5ecbbbf",
+                "reference": "14a2b2b8f324a34806fdcddc9fade1c7c5ecbbbf",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lucascudo\\LaravelPtBRLocalization\\LaravelPtBRLocalizationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lucascudo\\LaravelPtBRLocalization\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Cascudo",
+                    "email": "lucas.sisau@gmail.com"
+                }
+            ],
+            "description": "Arquivos de linguagem em Português do Brasil (pt-BR) para Laravel",
+            "homepage": "https://github.com/lucascudo/laravel-pt-br-localization",
+            "support": {
+                "issues": "https://github.com/lucascudo/laravel-pt-BR-localization/issues",
+                "source": "https://github.com/lucascudo/laravel-pt-BR-localization/tree/v2.2.3"
+            },
+            "funding": [
+                {
+                    "url": "https://buymeacoffee.com/lucasrocha",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/lucascudo",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/lucascudo/laravel-pt-br-localization",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-07-25T18:25:37+00:00"
         },
         {
             "name": "mockery/mockery",
