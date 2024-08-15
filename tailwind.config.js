@@ -20,7 +20,8 @@ export default {
     theme: {
         extend: {
             colors: {
-                'custom-purple': '#6A3093',
+                'custom-purple-light': '#6A3093',
+                'custom-purple': '#AB58FF',
               },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
